@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_option('deprecation.showPyplotGlobalUse', False)
+
 
 #importer le fichier : kaggle_survey_2020_responses.csv
 import pandas as pd
