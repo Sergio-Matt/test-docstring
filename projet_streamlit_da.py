@@ -9,7 +9,7 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 
-df = pd.read_csv(r'C:\Users\Professionnel\test-docstring\kaggle_survey_2020_responses.csv', header=0, low_memory=False)
+df = pd.read_csv("kaggle_survey_2020_responses.csv")
 
 # definir la premiere ligne comme nom des colonnes et supprimer la deuxieme ligne
 df = df.drop(index=0).reset_index(drop=True)
